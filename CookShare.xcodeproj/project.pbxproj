@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED27A2DE1892819700138630 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED27A2DD1892819700138630 /* Foundation.framework */; };
+		ED27A2E01892819700138630 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED27A2DF1892819700138630 /* CoreGraphics.framework */; };
+		ED27A2E21892819700138630 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED27A2E11892819700138630 /* UIKit.framework */; };
+		ED27A2E81892819700138630 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED27A2E61892819700138630 /* InfoPlist.strings */; };
+		ED27A2EA1892819700138630 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED27A2E91892819700138630 /* main.m */; };
+		ED27A2EE1892819700138630 /* CSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED27A2ED1892819700138630 /* CSAppDelegate.m */; };
+		ED27A2F11892819700138630 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED27A2EF1892819700138630 /* Main_iPhone.storyboard */; };
+		ED27A2F41892819700138630 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED27A2F21892819700138630 /* Main_iPad.storyboard */; };
+		ED27A2F71892819700138630 /* CSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED27A2F61892819700138630 /* CSViewController.m */; };
+		ED27A2F91892819700138630 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED27A2F81892819700138630 /* Images.xcassets */; };
+		ED27A3001892819700138630 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED27A2FF1892819700138630 /* XCTest.framework */; };
+		ED27A3011892819700138630 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED27A2DD1892819700138630 /* Foundation.framework */; };
+		ED27A3021892819700138630 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED27A2E11892819700138630 /* UIKit.framework */; };
+		ED27A30A1892819700138630 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED27A3081892819700138630 /* InfoPlist.strings */; };
+		ED27A30C1892819700138630 /* CookShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED27A30B1892819700138630 /* CookShareTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED27A3031892819700138630 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED27A2D21892819700138630 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED27A2D91892819700138630;
+			remoteInfo = CookShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED27A2DA1892819700138630 /* CookShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED27A2DD1892819700138630 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED27A2DF1892819700138630 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED27A2E11892819700138630 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED27A2E51892819700138630 /* CookShare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CookShare-Info.plist"; sourceTree = "<group>"; };
+		ED27A2E71892819700138630 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED27A2E91892819700138630 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED27A2EB1892819700138630 /* CookShare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CookShare-Prefix.pch"; sourceTree = "<group>"; };
+		ED27A2EC1892819700138630 /* CSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSAppDelegate.h; sourceTree = "<group>"; };
+		ED27A2ED1892819700138630 /* CSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegate.m; sourceTree = "<group>"; };
+		ED27A2F01892819700138630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		ED27A2F31892819700138630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		ED27A2F51892819700138630 /* CSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSViewController.h; sourceTree = "<group>"; };
+		ED27A2F61892819700138630 /* CSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSViewController.m; sourceTree = "<group>"; };
+		ED27A2F81892819700138630 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED27A2FE1892819700138630 /* CookShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED27A2FF1892819700138630 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ED27A3071892819700138630 /* CookShareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CookShareTests-Info.plist"; sourceTree = "<group>"; };
+		ED27A3091892819700138630 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED27A30B1892819700138630 /* CookShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CookShareTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED27A2D71892819700138630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED27A2E01892819700138630 /* CoreGraphics.framework in Frameworks */,
+				ED27A2E21892819700138630 /* UIKit.framework in Frameworks */,
+				ED27A2DE1892819700138630 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED27A2FB1892819700138630 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED27A3001892819700138630 /* XCTest.framework in Frameworks */,
+				ED27A3021892819700138630 /* UIKit.framework in Frameworks */,
+				ED27A3011892819700138630 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED27A2D11892819700138630 = {
+			isa = PBXGroup;
+			children = (
+				ED27A2E31892819700138630 /* CookShare */,
+				ED27A3051892819700138630 /* CookShareTests */,
+				ED27A2DC1892819700138630 /* Frameworks */,
+				ED27A2DB1892819700138630 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED27A2DB1892819700138630 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED27A2DA1892819700138630 /* CookShare.app */,
+				ED27A2FE1892819700138630 /* CookShareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED27A2DC1892819700138630 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED27A2DD1892819700138630 /* Foundation.framework */,
+				ED27A2DF1892819700138630 /* CoreGraphics.framework */,
+				ED27A2E11892819700138630 /* UIKit.framework */,
+				ED27A2FF1892819700138630 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED27A2E31892819700138630 /* CookShare */ = {
+			isa = PBXGroup;
+			children = (
+				ED27A2EC1892819700138630 /* CSAppDelegate.h */,
+				ED27A2ED1892819700138630 /* CSAppDelegate.m */,
+				ED27A2EF1892819700138630 /* Main_iPhone.storyboard */,
+				ED27A2F21892819700138630 /* Main_iPad.storyboard */,
+				ED27A2F51892819700138630 /* CSViewController.h */,
+				ED27A2F61892819700138630 /* CSViewController.m */,
+				ED27A2F81892819700138630 /* Images.xcassets */,
+				ED27A2E41892819700138630 /* Supporting Files */,
+			);
+			path = CookShare;
+			sourceTree = "<group>";
+		};
+		ED27A2E41892819700138630 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED27A2E51892819700138630 /* CookShare-Info.plist */,
+				ED27A2E61892819700138630 /* InfoPlist.strings */,
+				ED27A2E91892819700138630 /* main.m */,
+				ED27A2EB1892819700138630 /* CookShare-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED27A3051892819700138630 /* CookShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED27A30B1892819700138630 /* CookShareTests.m */,
+				ED27A3061892819700138630 /* Supporting Files */,
+			);
+			path = CookShareTests;
+			sourceTree = "<group>";
+		};
+		ED27A3061892819700138630 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED27A3071892819700138630 /* CookShareTests-Info.plist */,
+				ED27A3081892819700138630 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED27A2D91892819700138630 /* CookShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED27A30F1892819700138630 /* Build configuration list for PBXNativeTarget "CookShare" */;
+			buildPhases = (
+				ED27A2D61892819700138630 /* Sources */,
+				ED27A2D71892819700138630 /* Frameworks */,
+				ED27A2D81892819700138630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CookShare;
+			productName = CookShare;
+			productReference = ED27A2DA1892819700138630 /* CookShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED27A2FD1892819700138630 /* CookShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED27A3121892819700138630 /* Build configuration list for PBXNativeTarget "CookShareTests" */;
+			buildPhases = (
+				ED27A2FA1892819700138630 /* Sources */,
+				ED27A2FB1892819700138630 /* Frameworks */,
+				ED27A2FC1892819700138630 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED27A3041892819700138630 /* PBXTargetDependency */,
+			);
+			name = CookShareTests;
+			productName = CookShareTests;
+			productReference = ED27A2FE1892819700138630 /* CookShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED27A2D21892819700138630 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Puneet Goyal";
+				TargetAttributes = {
+					ED27A2FD1892819700138630 = {
+						TestTargetID = ED27A2D91892819700138630;
+					};
+				};
+			};
+			buildConfigurationList = ED27A2D51892819700138630 /* Build configuration list for PBXProject "CookShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED27A2D11892819700138630;
+			productRefGroup = ED27A2DB1892819700138630 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED27A2D91892819700138630 /* CookShare */,
+				ED27A2FD1892819700138630 /* CookShareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED27A2D81892819700138630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED27A2F41892819700138630 /* Main_iPad.storyboard in Resources */,
+				ED27A2F91892819700138630 /* Images.xcassets in Resources */,
+				ED27A2F11892819700138630 /* Main_iPhone.storyboard in Resources */,
+				ED27A2E81892819700138630 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED27A2FC1892819700138630 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED27A30A1892819700138630 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED27A2D61892819700138630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED27A2EE1892819700138630 /* CSAppDelegate.m in Sources */,
+				ED27A2EA1892819700138630 /* main.m in Sources */,
+				ED27A2F71892819700138630 /* CSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED27A2FA1892819700138630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED27A30C1892819700138630 /* CookShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED27A3041892819700138630 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED27A2D91892819700138630 /* CookShare */;
+			targetProxy = ED27A3031892819700138630 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED27A2E61892819700138630 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED27A2E71892819700138630 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED27A2EF1892819700138630 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED27A2F01892819700138630 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		ED27A2F21892819700138630 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED27A2F31892819700138630 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		ED27A3081892819700138630 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED27A3091892819700138630 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED27A30D1892819700138630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED27A30E1892819700138630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED27A3101892819700138630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CookShare/CookShare-Prefix.pch";
+				INFOPLIST_FILE = "CookShare/CookShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED27A3111892819700138630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CookShare/CookShare-Prefix.pch";
+				INFOPLIST_FILE = "CookShare/CookShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ED27A3131892819700138630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CookShare.app/CookShare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CookShare/CookShare-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CookShareTests/CookShareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ED27A3141892819700138630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CookShare.app/CookShare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CookShare/CookShare-Prefix.pch";
+				INFOPLIST_FILE = "CookShareTests/CookShareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED27A2D51892819700138630 /* Build configuration list for PBXProject "CookShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED27A30D1892819700138630 /* Debug */,
+				ED27A30E1892819700138630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED27A30F1892819700138630 /* Build configuration list for PBXNativeTarget "CookShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED27A3101892819700138630 /* Debug */,
+				ED27A3111892819700138630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED27A3121892819700138630 /* Build configuration list for PBXNativeTarget "CookShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED27A3131892819700138630 /* Debug */,
+				ED27A3141892819700138630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED27A2D21892819700138630 /* Project object */;
+}
